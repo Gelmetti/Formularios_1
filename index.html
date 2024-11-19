@@ -1,0 +1,68 @@
+<!-- Ejercicios - Formularios 1 Enunciado Crea una página web que contenga un
+formulario con los siguientes campos de información: El nombre, con un controlde
+tipo texto. Los apellidos, con un control de tipo texto. El sexo, con dos
+opciones excluyentes hombre o mujer. El correo electrónico, con un control de
+tipo texto.Una casilla de verificación con el texto "Deseo recibir información
+sobre novedades y ofertas". Una casilla de verificación con el texto "Declaro
+haber leido y aceptar las condiciones generales del programa y la normativa
+sobre protección de datos". Un botón de envío. Además, tienes que tener en
+cuenta los siguientes requisitos: El título de la página debe ser Formulario de
+registro - Mi web. El método de envío del formulario debe ser GET. El destino
+del envío del formulario debe ser "". La longitud máxima de entrada de datos de
+los controles para el nombre y los apellidos debe ser 50 caracteres. La casilla
+de verificación con el texto "Deseo recibir información sobre novedades y
+ofertas" debe estar activada por defecto. Debes crear una página web que tenga
+el mismo aspecto que la imagen -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotmilario 1</title>
+</head>
+<body>
+    <h2>Formulario Registro</h2>
+
+<form action="/action_page.php">
+
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname" value=""><br><br>
+
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname" value=""><br><br>
+
+ 
+
+  
+
+
+
+
+</form> 
+
+<p>Sexo por favor:</p>
+
+<form>
+
+
+  <input type="radio" id="html" name="fav_language" value="Hombre">
+  <label for="html">HTML</label>
+  
+  <input type="radio" id="css" name="fav_language" value="Mujer">
+  <label for="css">CSS</label><br><br>
+  
+
+  
+</form> 
+
+
+<form action="/action_page.php">
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+    <label for="vehicle1"> Deseo recibir informacion y ofertas</label><br>
+   
+  </form> 
+ <input type="submit" value="Enviar">
+
+    
+</body>
+</html>
